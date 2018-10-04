@@ -46,13 +46,21 @@ function checkEntity ($age, $body, $spiritResults) {
 				return 'siri';
 			}
 		} else {
-			return "a soulless machine";
+			return 'a soulless machine';
 		}
 	} elseif ($body == 'flesh') {
-		if ($age > 120) {
+		if ($age > 120 || !(in_array('heart', $spiritResults))) {
 			return 'dead';
 		} else {
-			return 'alive';
+			if (in_array('brain', $spiritResults)) {
+				if (in_array('soul', $spiritResults)) {
+					return 'a normal human person';
+				} else {
+					return 'a pretty mean dude';
+				}
+			} else {
+				return 'a mindless beast';
+			}
 		}
 	} else {
 		return 'mysterious';

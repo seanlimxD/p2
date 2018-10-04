@@ -71,7 +71,7 @@
 		    </div>
 		<?php endif; ?>
 
-		<?php if (!($errors) && !($bodyUnselected) && !(is_null($spirit))) : ?>
+		<?php if ((isset($errors) && !($errors)) && !($bodyUnselected) && !(is_null($spirit))) : ?>
 			<p>
 				You are <?= checkEntity($age, $body, $spiritResults) ?>.
 			</p>
