@@ -3,7 +3,7 @@
 + Production URL: <http://p2.seanlimsph.com>
 
 ## Outside resources
-*Your list of outside resources go here*
+N/A
 
 ## 3 Unique inputs
 (1) Text input to indicate age
@@ -16,6 +16,6 @@
 Form.php
 
 ## Code style divergences
+N/A
 
 ## Notes for instructor
-
