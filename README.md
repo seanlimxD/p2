@@ -7,7 +7,9 @@
 
 ## 3 Unique inputs
 (1) Text input to indicate age
+
 (2) Dropdown to indicate body type
+
 (3) Checkbox input to indicate miscellanous qualities
 
 ## Class
